@@ -1,14 +1,13 @@
 # Algorithms
 
-Problem files use platform-style names:
+Use one directory per problem so each exercise is isolated as its own Go package.
 
-- `lc001.go`
-- `lc002.go`
-- `cf555.go`
+- `lc001/main.go`
+- `lc002/main.go`
+- `cf555/main.go`
 
-Each problem file can include its own test function, such as `testLC001()`.
-Use `main.go` to call whichever test function you want to run.
+Each problem can keep its solution, sample cases, and `main()` in the same file.
 
 ```powershell
-go run ./algorithms
+go run ./algorithms/lc001
 ```

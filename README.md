@@ -5,7 +5,7 @@ This repository is for learning Go through small exercises.
 ## Layout
 
 - `basics/`: Go syntax and language basics.
-- `algorithms/`: Algorithm problems named by platform and problem id, such as `LC0001_two_sum`.
+- `algorithms/`: Algorithm problems, one directory per problem, such as `lc001`.
 - `patterns/`: Design pattern experiments in Go style.
 - `stdlib/`: Standard library experiments.
 - `projects/`: Small practice projects.
@@ -14,7 +14,7 @@ This repository is for learning Go through small exercises.
 ## Run One Exercise
 
 ```powershell
-go run ./algorithms
+go run ./algorithms/lc001
 ```
 
 ## Run All Buildable Packages
